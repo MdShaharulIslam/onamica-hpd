@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onamica</title>
+  <link rel="icon" href="./Images/title.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="">
+    <div id="body"
+      class="m-auto mt-11 border-8 border-indigo-600 w-1/2 h-[500px] flex flex-col gap-8 justify-center items-center bg-lime-300">
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-blue-500 text-sm md:text-2xl font-extrabold text-center ">আস্সালামুআলাইকুম <br> ওয়ারহমাতুল্লাহ
+        </h1>
+        <h1 class="text-center">অনামিকা <br> তোমাকে স্বাগতম </h1>
+      </div>
+
+      <div>
+        <button class="btn btn-secondary w-full" onclick="my_modal_4.showModal()">Hello Onamica! Please Click Me
+          First</button>
+        <dialog id="my_modal_4" class="modal">
+          <div class="modal-box w-11/12 max-w-5xl">
+            <h3 class="font-bold text-lg">Hello Onamica!</h3>
+
+            <p class="py-4">অনামিকা ধন্যবাদ তোমাকে। তোমার অনেক মুল্যবান সময় থেকে আমাকে সময় দেয়ার জন্য। পর্যায়ক্রমে সবকটি
+              বাটন এ ক্লিক করো। </p>
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button, it will close the modal -->
+                <button class="btn btn-accent text-2xl ">Onamic Please Close this and click next Button</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+      <div>
+        <a href="#my_modal_8" class="btn">Hello Onamica! Please Click Me
+          Secound</a>
+        <div class="modal" role="dialog" id="my_modal_8">
+          <div class="modal-box">
+            <h3 class="font-bold text-lg">Hello Onamica!</h3>
+            <p class="py-4">আজকের আকাশে অনেক তারা
+              দিন ছিল সূর্যে ভরা
+              আজকের জোছনাটা আরো সুন্দর
+              সন্ধ্যাটা আগুন লাগা
+              আজকের পৃথিবী তোমার জন্য
+              ভরে থাকা ভালো লাগা
+              মুখরিত হবে দিন গানে গানে আগামীর সম্ভাবনা
+
+              তুমি এই দিনে পৃথিবীতে এসেছ
+              শুভেচ্ছা তোমায়
+              তাই অনাগত ক্ষণ হোক আরো সুন্দর
+              উচ্ছল দিন কামনায়....
+
+              আজ জন্মদিন তোমার...
+              তোমার জন্য এই রোদেলা স্বপ্ন সকাল
+              তোমার জন্য হাসে অনরল স্নিগ্ধ বিকেল
+              ভালবাসা নিয়ে নিজে তুমি,
+              ভালোবাসো সব সৃষ্টিকে
+              ভালবাসা নিয়ে নিজে তুমি,
+              ভালোবাসো সব সৃষ্টিকে
+
+              তুমি এই দিনে পৃথিবীতে এসেছ
+              শুভেচ্ছা তোমায়..
+              তাই অনাগত ক্ষণ হোক আরো সুন্দর
+              উচ্ছল দিন কামনায়...
+
+              আজ জন্মদিন তোমার...
+
+              তোমার জন্য ফোঁটা পৃথিবীর সব গোলাপ
+              তোমার জন্য এই কবিতা নয় সে প্রলাপ
+              আলোকিত হয়ে নিজে তুমি, আলোকিত কর পৃথিবীকে
+              আলোকিত হয়ে নিজে তুমি, আলোকিত কর পৃথিবীকে
+
+              তুমি এই দিনে পৃথিবীতে এসেছ
+              শুভেচ্ছা তোমায়
+              তাই অনাগত ক্ষণ হোক আরো সুন্দর
+              উচ্ছল দিন কামনায়...
+
+              আজ জন্মদিন তোমার....
+              আজকের আকাশে অনেক তারা,
+              দিন ছিল সূর্যে ভরা,
+              আজকের জোছনাটা আরো সুন্দর,
+              সন্ধ্যাটা আগুন লাগা
+              আজকের পৃথিবী তোমার জন্য
+              ভরে থাকা ভালো লাগা
+              মুখরিত হবে দিন গানে গানে আগামীর সম্ভাবনা
+
+              তুমি এই দিনে পৃথিবীতে এসেছ ,
+              শুভেচ্ছা তোমায়
+              তাই অনাগত ক্ষণ হোক আরো সুন্দর
+              উচ্ছল দিন কামনায়....
+
+              আজ জন্মদিন তোমার......</p>
+            <div class="modal-action">
+              <a href="#" class="btn">Onamic Please Close this and click next Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <!-- Open the modal using ID.showModal() method -->
+        <button class="btn" onclick="my_modal_1.showModal()">Hello Onamica! Please Click Me
+          Third</button>
+        <dialog id="my_modal_1" class="modal">
+          <div class="modal-box">
+            <h3 class="font-bold text-lg">Hello Onamica!</h3>
+            <p class="py-4">আজ তোমার এই শুভ জন্ম দিনে অনেক অনেক শুভেচ্ছা। আগামি জীবনের জন্য রইল শুভকামনা। আর হ্যা
+              ভালোবাসি ভালোবাসবো আমার মতো করে সারজীবন...তবে তোমার পছন্দ আর ভালোবাসার কাটা হয়ে থেকে নয়।
+              যোগ্যতার বাহিরে বেসেছি ভালো। যাইহোক <br>NPO <br>জন্ম দিনের অনেক অনেক শুভেচ্ছা তোমাকে। অনেক খুশি থাক জীবনের
+              প্রতিটা মুহুর্তে।
+            </p>
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+      <div>
+        <label for="my_modal_7" class="btn">Onamica Please Click Me last</label>
+        <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+        <div class="modal" role="dialog">
+          <div class="modal-box">
+            <h3 class="text-lg font-bold text-center">Hello Onamica!</h3>
+            <img src="./Images/bd.gif" alt="">
+          </div>
+          <label class="modal-backdrop" for="my_modal_7">Close</label>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <section>
+    <!-- The button to open modal -->
+
+
+  </section>
+</body>
+
+</html>
